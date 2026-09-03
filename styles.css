@@ -2155,3 +2155,195 @@ body {
     white-space: nowrap;
   }
 }
+
+/* Profile introduction */
+.profile-hero {
+  display: grid;
+  grid-template-columns: clamp(220px, 24vw, 292px) minmax(0, 1fr);
+  gap: clamp(48px, 7vw, 104px);
+  align-items: center;
+  max-width: 1120px;
+  margin-inline: auto;
+}
+
+.profile-portrait {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(20, 32, 27, 0.2);
+  border-radius: 24px;
+  background: var(--card);
+  box-shadow: 0 24px 60px rgba(25, 42, 33, 0.15);
+}
+
+.profile-portrait::after {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: inherit;
+}
+
+.profile-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 38%;
+}
+
+.profile-copy {
+  min-width: 0;
+}
+
+.profile-copy .eyebrow {
+  margin: 0 0 22px;
+  color: var(--accent);
+}
+
+.profile-copy h1 {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: clamp(4rem, 7.2vw, 6.9rem);
+  font-weight: 700;
+  letter-spacing: -0.065em;
+  line-height: 0.92;
+}
+
+.profile-introduction {
+  max-width: 760px;
+  margin: clamp(28px, 4vw, 44px) 0 0;
+  color: var(--ink-soft);
+  font-size: clamp(1.08rem, 1.45vw, 1.28rem);
+  line-height: 1.65;
+}
+
+.profile-introduction strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.profile-introduction a {
+  color: var(--accent-deep);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(21, 86, 217, 0.45);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  transition: color 180ms ease, text-decoration-color 180ms ease;
+}
+
+.profile-introduction a:hover,
+.profile-introduction a:focus-visible {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  margin-top: clamp(28px, 3.5vw, 40px);
+}
+
+.profile-link {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 17px;
+  border: 1px solid rgba(20, 32, 27, 0.2);
+  border-radius: 999px;
+  color: var(--ink);
+  background: rgba(255, 253, 247, 0.86);
+  box-shadow: 0 8px 24px rgba(37, 48, 41, 0.07);
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.035em;
+  transition: color 180ms ease, border-color 180ms ease, background 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+
+.profile-link svg {
+  flex: 0 0 auto;
+  color: var(--accent);
+}
+
+.profile-link-arrow {
+  margin-left: 2px;
+  color: var(--accent);
+  font-size: 15px;
+  line-height: 1;
+}
+
+.profile-link:hover,
+.profile-link:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent-deep);
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(21, 86, 217, 0.12);
+  transform: translateY(-2px);
+}
+
+.profile-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 900px) {
+  .profile-hero {
+    grid-template-columns: clamp(200px, 30vw, 250px) minmax(0, 1fr);
+    gap: clamp(32px, 5vw, 52px);
+    align-items: start;
+  }
+
+  .profile-copy h1 {
+    font-size: clamp(3.7rem, 8vw, 5.4rem);
+  }
+
+  .profile-introduction {
+    margin-top: 25px;
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .profile-hero {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .profile-portrait {
+    width: min(72vw, 270px);
+    justify-self: center;
+    border-radius: 20px;
+  }
+
+  .profile-copy .eyebrow {
+    margin-bottom: 18px;
+  }
+
+  .profile-copy h1 {
+    font-size: clamp(3.5rem, 17vw, 5.2rem);
+  }
+
+  .profile-introduction {
+    margin-top: 24px;
+    font-size: 1.05rem;
+    line-height: 1.62;
+  }
+
+  .profile-links {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .profile-link {
+    width: fit-content;
+    max-width: 100%;
+  }
+}

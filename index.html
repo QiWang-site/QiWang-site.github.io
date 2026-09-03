@@ -32,8 +32,6 @@
       <nav class="site-nav" id="primary-nav" aria-label="Primary navigation">
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
-        <a href="#background">Background</a>
-        <a href="#service">Service</a>
         <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
@@ -41,49 +39,66 @@
 
   <main id="top">
     <section class="hero section-shell" id="about">
-      <div class="hero-grid">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">01 / ABOUT</p>
-          <h1>Optimization<br><span class="hero-amp">&amp;</span> power systems</h1>
-          <p class="hero-summary">
-            Research interests: optimization algorithms for large-scale problems in power systems,
-            and methods integrating machine learning and optimization with applications to power systems.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-dark" href="#publications">Browse publications <span aria-hidden="true">↓</span></a>
-            <a class="text-link" href="https://scholar.google.com/citations?hl=zh-CN&amp;user=cLw8TQkAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+      <div class="profile-hero">
+        <figure class="profile-portrait reveal">
+          <img
+            src="wq.jpg"
+            alt="Portrait of Qi Wang"
+            width="2110"
+            height="2955"
+            loading="eager"
+            fetchpriority="high"
+          >
+        </figure>
+
+        <div class="profile-copy reveal reveal-delay-1">
+          <h1>Qi Wang</h1>
+          <p class="profile-introduction">
+			  I am a <strong>Research Assistant Professor</strong> in the
+			  <a
+				href="https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-qi/"
+				target="_blank"
+				rel="noreferrer noopener"
+			  >Department of Applied Mathematics</a>
+			  at The Hong Kong Polytechnic University.<br>
+			  <strong>Research interests:</strong> optimization algorithms for large-scale problems in power systems, and methods integrating machine learning and optimization with applications to power systems.
+		  </p>
+
+          <div class="profile-links" aria-label="Academic profile links">
+            <a class="profile-link" href="mailto:q3wang@polyu.edu.hk">
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20">
+                <path d="M3.75 5.75h16.5v12.5H3.75zM4.5 6.5l7.5 6 7.5-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>q3wang@polyu.edu.hk</span>
+            </a>
+            <a class="profile-link" href="https://scholar.google.com/citations?hl=zh-CN&amp;user=cLw8TQkAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noreferrer noopener">
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20">
+                <path d="M2.5 9.25 12 4l9.5 5.25L12 14.5 2.5 9.25Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                <path d="M6.25 11.3v4.45c1.6 1.4 3.5 2.1 5.75 2.1s4.15-.7 5.75-2.1V11.3M21.5 9.25v5.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>GOOGLE SCHOLAR</span>
+              <span class="profile-link-arrow" aria-hidden="true">&#8599;</span>
+            </a>
           </div>
         </div>
+      </div>
+    </section>
 
-        <aside class="hero-card reveal reveal-delay-1" aria-label="Profile overview">
-          <div class="hero-card-top">
-          </div>
-          <div class="hero-orbit" aria-hidden="true">
-            <div class="orbit-ring orbit-ring-a"></div>
-            <div class="orbit-ring orbit-ring-b"></div>
-            <div class="orbit-node orbit-node-a"></div>
-            <div class="orbit-node orbit-node-b"></div>
-            <div class="orbit-node orbit-node-c"></div>
-            <div class="orbit-core">Qi Wang</div>
-            <span class="orbit-label orbit-label-a">OPT</span>
-            <span class="orbit-label orbit-label-b">AI</span>
-            <span class="orbit-label orbit-label-c">GRID</span>
-          </div>
-          <dl class="hero-facts">
-            <div>
-              <dt>Appointment</dt>
-              <dd>Research Assistant Professor (RAP) in the Department of Applied Mathematics</dd>
-            </div>
-            <div>
-              <dt>Institution</dt>
-              <dd>The Hong Kong Polytechnic University</dd>
-            </div>
-            <div>
-              <dt>Doctoral degree</dt>
-              <dd>Tsinghua University</dd>
-            </div>
-          </dl>
-        </aside>
+	<section class="section-shell section-block background-section" id="background">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / BACKGROUND</p>
+        <h2>Appointments &amp<em>education</em></h2>
+      </div>
+
+      <div class="background-grid">
+        <div class="timeline-panel reveal">
+          <div class="subsection-label">Academic appointment</div>
+          <div id="appointment-timeline" class="timeline"></div>
+        </div>
+        <div class="timeline-panel reveal reveal-delay-1">
+          <div class="subsection-label">Education</div>
+          <div id="education-timeline" class="timeline"></div>
+        </div>
       </div>
     </section>
 
@@ -166,86 +181,9 @@
       </div>
     </section>
 
-    <section class="section-shell section-block background-section" id="background">
-      <div class="section-heading reveal">
-        <p class="eyebrow">04 / BACKGROUND</p>
-        <h2>Appointments &amp<em>education</em></h2>
-      </div>
-
-      <div class="background-grid">
-        <div class="timeline-panel reveal">
-          <div class="subsection-label">Academic appointment</div>
-          <div id="appointment-timeline" class="timeline"></div>
-        </div>
-        <div class="timeline-panel reveal reveal-delay-1">
-          <div class="subsection-label">Education</div>
-          <div id="education-timeline" class="timeline"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-shell section-block recognition-section" id="recognition">
-      <div class="section-heading reveal">
-        <p class="eyebrow">05 / RECOGNITION</p>
-        <h2>Selected<br><em>recognitions</em></h2>
-      </div>
-      <div class="award-list reveal reveal-delay-1" id="award-list"></div>
-    </section>
-
-    <section class="section-shell section-block service-section" id="service">
-      <div class="section-heading reveal">
-        <p class="eyebrow">06 / SERVICE</p>
-        <h2>Academic<br><em>service</em></h2>
-      </div>
-
-      <div class="service-grid">
-        <article class="service-card reveal">
-          <div class="subsection-label">Editorial</div>
-          <div id="editorial-service"></div>
-          <div class="service-divider"></div>
-          <div class="subsection-label">Guest editor</div>
-          <div id="guest-editor-service"></div>
-        </article>
-        <article class="service-card service-card-dark reveal reveal-delay-1">
-          <div class="subsection-label">Panel section chair</div>
-          <ul class="compact-list" id="panel-chair-list"></ul>
-        </article>
-        <article class="service-card reveal reveal-delay-2">
-          <div class="subsection-label">Journal reviewer</div>
-          <div id="reviewer-list"></div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section-shell section-block presentations-section" id="presentations">
-      <div class="section-heading section-heading-presentations reveal">
-        <div>
-          <p class="eyebrow">07 / PRESENTATIONS</p>
-          <h2>Talks, seminars,<br><em>and forums</em></h2>
-        </div>
-      </div>
-      <div class="presentation-list reveal reveal-delay-1" id="presentation-list"></div>
-    </section>
-
-    <section class="section-shell section-block contributions-section">
-      <div class="contributions-grid">
-        <div class="contribution-column reveal">
-          <p class="eyebrow">08 / TEACHING</p>
-          <h2>Teaching<br><em>experience</em></h2>
-          <div class="teaching-list" id="teaching-list"></div>
-        </div>
-        <div class="contribution-column contribution-projects reveal reveal-delay-1">
-          <p class="eyebrow">09 / PROJECTS</p>
-          <h2>Project<br><em>implementations</em></h2>
-          <div class="project-list" id="project-list"></div>
-        </div>
-      </div>
-    </section>
-
     <section class="contact-section" id="contact">
       <div class="section-shell contact-inner reveal">
         <div>
-          <p class="eyebrow">10 / CONTACT</p>
           <h2>Let’s talk<br><em>research</em></h2>
         </div>
         <div class="contact-details">
