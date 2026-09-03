@@ -72,21 +72,6 @@ window.SITE_DATA = {
       "year": 2025
     },
     {
-      "title": "Outstanding Doctoral Dissertation (20 recipients selected nationwide)",
-      "organization": "China Energy Research Society",
-      "year": 2024
-    },
-    {
-      "title": "Nomination for Outstanding Doctoral Dissertation (10 recipients selected nationwide)",
-      "organization": "China Electrotechnical Society",
-      "year": 2024
-    },
-    {
-      "title": "Finalist Nomination",
-      "organization": "IEEE PES Grid Edge Technologies Conference “3-Minute Ph.D. Dissertation Challenge”",
-      "year": 2024
-    },
-    {
       "title": "Best Oral Presentation Award",
       "organization": "IEEE PES China Chapters Council Student Research Showcase",
       "year": 2024
@@ -95,11 +80,6 @@ window.SITE_DATA = {
       "title": "Best Paper Award",
       "organization": "IEEE Region 10 Student Activities Committee Student Research Paper contest",
       "year": 2024
-    },
-    {
-      "title": "Finalist Nomination",
-      "organization": "IEEE I&CPS Asia Ph.D. Dissertation Challenge",
-      "year": 2023
     }
   ],
   "services": {
@@ -233,7 +213,7 @@ window.SITE_DATA = {
       "period": "31/8/2024 – 30/8/2026",
       "role": "Recipient",
       "institution": "The Hong Kong Polytechnic University",
-      "title": "Data-Driven and Optimization-Based Methods for Power System Decision-Making",
+      "title": "",
       "description": ""
     }
   ],
