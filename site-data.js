@@ -8,11 +8,6 @@ window.SITE_DATA = {
     "location": "Hong Kong",
     "scholarUrl": "https://scholar.google.com/citations?hl=zh-CN&user=cLw8TQkAAAAJ&view_op=list_works&sortby=pubdate",
     "snapshotDate": "2 September 2026",
-    "scholarStats": {
-      "citations": 274,
-      "hIndex": 8,
-      "i10Index": 7
-    }
   },
   "interests": [
     {
@@ -86,7 +81,7 @@ window.SITE_DATA = {
     "editorial": [
       {
         "role": "Young Editorial Board Member",
-        "detail": "Protection and Control of Modern Power Systems (SCI, Q1), The Innovation Energy, Carbon Neutral Systems, Energy Use"
+        "detail": "Protection and Control of Modern Power Systems (SCI, Q1)"
       }
     ],
     "guestEditor": [
@@ -96,14 +91,11 @@ window.SITE_DATA = {
       }
     ],
     "panelChair": [
-      "2026 The 10th IEEE Conference on Energy Internet and Energy System Integration (2 sessions)",
+      "2026 The 10th IEEE Conference on Energy Internet and Energy System Integration",
       "2026 IEEE I&CPS ASIA",
-      "2026 IEEE PES International Meeting (2 sessions)",
-      "2026 IEEE International Symposium on the Application of Artificial Intelligence in Electrical Engineering (AAIEE)",
+      "2026 IEEE PES International Meeting",
       "The 20th Annual Academic Conference of the China Electrotechnical Society (ACCES)",
       "2025 IEEE International Electrical and Energy Conference (CIEEC)",
-      "The 8th International Conference on Power and Energy Applications (ICPEA 2025) & 1st IEEE PCCC Yangtze River Delta Forum",
-      "The 9th International Conference on Smart Grid and Smart Cities (ICSGSC 2025)"
     ],
     "reviewerGroups": [
       {
@@ -125,11 +117,6 @@ window.SITE_DATA = {
       "year": 2026,
       "event": "IEEE PES International Meeting",
       "title": "An Efficient Coordination Algorithm for the ACOPF of Hierarchical Power Grids"
-    },
-    {
-      "year": 2025,
-      "event": "The Optimization Seminar at The Hong Kong Polytechnic University",
-      "title": "A GPU-based Halpern Peaceman-Rachford Algorithm for Optimal Power Flow in Large-scale Renewable Power Systems"
     },
     {
       "year": 2025,
